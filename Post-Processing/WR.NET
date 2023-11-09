@@ -1,0 +1,129 @@
+Wire List
+
+                                              Revised: September 02, 2023
+C:\USERS\VLADC\DESKTOP\PROIECT TIE 2023 - ECHIRevision: 
+
+
+
+
+
+
+<<< Component List >>>
+COIN-SIZED PAD                1         moneda
+1u                            C1        CAPCK05
+1u                            C2        CAPCK05
+D1N4148                       D1        dax2do35
+LED                           D2        1206RF_WV_12D
+CON2                          J1        JUMPER2
+Relay                         K1        JUMPER2
+2N7000                        Q1        TO-92L
+1M                            R1        RES400
+100M                          R2        RES400
+100K                          R3        VRES10
+220                           R4        RES400
+330                           R5        RES400
+1K                            R6        RES400
+1M                            R7        RES400
+74HC02                        U1        SOIC14
+74HC02                        U2        SOIC14
+LM317L/TO92                   U3        TO-92L
+
+<<< Wire List >>>
+
+  NODE  REFERENCE    PIN #   PIN NAME           PIN TYPE       PART VALUE
+
+[00001] 12V
+        U1              14      12V             Power          74HC02
+        U2              14      12V             Power          74HC02
+        R6              1       1               Passive        1K
+        U3              3       VIN             Input          LM317L/TO92
+        K1              1       1               Passive        Relay
+        J1              1       1               Power          CON2
+        D1              2       2               Passive        D1N4148
+
+[00002] GND_ARROW
+        U1              3       B_A             Input          74HC02
+        U1              7       GND_ARROW       Power          74HC02
+        R3              1       1               Passive        100K
+        U2              7       GND_ARROW       Power          74HC02
+        C2              2       2               Passive        1u
+        C1              2       2               Passive        1u
+        R5              2       2               Passive        330
+        Q1              1       SOURCE          Passive        2N7000
+        U1              5       A_B             Input          74HC02
+        U1              6       B_B             Input          74HC02
+        J1              2       2               Power          CON2
+
+[00003] N00225
+        R1              1       1               Passive        1M
+        1               1       1               Passive        COIN-SIZED PAD
+
+[00004] N00229
+        R1              2       2               Passive        1M
+        R2              2       2               Passive        100M
+        U1              2       A_A             Input          74HC02
+
+[00005] N00236
+        R2              1       1               Passive        100M
+        R3              2       t               Passive        100K
+
+[00006] N00556
+        U1              1       Y_A             Output         74HC02
+        U2              5       A_B             Input          74HC02
+        U2              2       A_A             Input          74HC02
+
+[00007] N00573
+        U2              6       B_B             Input          74HC02
+        U2              11      A_D             Input          74HC02
+        U2              12      B_D             Input          74HC02
+        U2              10      Y_C             Output         74HC02
+
+[00008] N00627
+        U2              13      Y_D             Output         74HC02
+        U2              3       B_A             Input          74HC02
+
+[00009] N00645
+        U2              1       Y_A             Output         74HC02
+        U1              8       A_C             Input          74HC02
+
+[00010] N00686
+        U2              4       Y_B             Output         74HC02
+        U1              12      B_D             Input          74HC02
+
+[00011] N00786
+        U2              8       A_C             Input          74HC02
+        U2              9       B_C             Input          74HC02
+        C2              1       1               Passive        1u
+        R7              1       1               Passive        1M
+
+[00012] N01573
+        R7              2       2               Passive        1M
+        Q1              2       GATE            Passive        2N7000
+        U1              13      Y_D             Output         74HC02
+        U1              9       B_C             Input          74HC02
+
+[00013] N02019
+        R3              3       2               Passive        100K
+        R4              1       1               Passive        220
+        C1              1       1               Passive        1u
+        U3              2       VOUT            Output         LM317L/TO92
+
+[00014] N02218
+        Q1              3       DRAIN           Passive        2N7000
+        D2              2       CATHODE         Passive        LED
+        K1              2       2               Passive        Relay
+        D1              1       1               Passive        D1N4148
+
+[00015] N024101
+        R6              2       2               Passive        1K
+        D2              1       ANODE           Passive        LED
+
+[00016] N04201
+        R4              2       2               Passive        220
+        R5              1       1               Passive        330
+        U3              1       ADJ             Passive        LM317L/TO92
+
+[00017] N08128
+        U1              11      A_D             Input          74HC02
+        U1              10      Y_C             Output         74HC02
+

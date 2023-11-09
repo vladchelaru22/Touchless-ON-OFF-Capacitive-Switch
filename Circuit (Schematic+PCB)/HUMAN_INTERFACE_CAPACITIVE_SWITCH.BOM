@@ -1,0 +1,28 @@
+  Revised: Thursday, May 18, 2023
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials            May 18,2023      1:20:09	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	2	C1,C2	1u
+2	1	D1	D1N4148
+3	1	D2	LED
+4	1	K1	CON2
+5	1	Q1	2N7000
+6	2	R1,R7	1M
+7	1	R2	100M
+8	1	R3	100K
+9	1	R4	220
+10	1	R5	330
+11	1	R6	1K
+12	2	U1,U2	74HC02
+13	1	U3	LM317L/TO92
+14	1	1	COIN-SIZED PAD

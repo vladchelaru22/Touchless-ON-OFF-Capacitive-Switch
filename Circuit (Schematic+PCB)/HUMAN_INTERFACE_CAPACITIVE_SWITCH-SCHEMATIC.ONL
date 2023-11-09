@@ -1,0 +1,660 @@
+(PCB "HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC"
+ (description
+  (timeStamp "2023 09 02 14 38 12")
+  (program "CAPTURE.EXE" (Version "17.2-2016 - D"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "September 02, 2023")
+  (document "C:\\USERS\\VLADC\\DESKTOP\\PROIECT TIE 2023 - ECHIPA 2 - 423C\\CIRCUIT (SCHEMATIC+PCB)\\HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component LED
+   (place D2
+    (property 
+     (timestamp 00000A3A)
+     ("Source Package" LED)
+     (Value LED)
+     ("PCB Footprint" 1206RF_WV_12D))))
+  (component R
+   (place R1
+    (property 
+     (timestamp 00000043)
+     ("Source Package" R)
+     (Value 1M)
+     ("PCB Footprint" RES400)))
+   (place R2
+    (property 
+     (timestamp 00000053)
+     ("Source Package" R)
+     (Value 100M)
+     ("PCB Footprint" RES400)))
+   (place R4
+    (property 
+     (timestamp 0000082F)
+     ("Source Package" R)
+     (Value 220)
+     ("PCB Footprint" RES400)))
+   (place R5
+    (property 
+     (timestamp 00000899)
+     ("Source Package" R)
+     (Value 330)
+     ("PCB Footprint" RES400)))
+   (place R6
+    (property 
+     (timestamp 0000096A)
+     ("Source Package" R)
+     (Value 1K)
+     ("PCB Footprint" RES400)))
+   (place R7
+    (property 
+     (timestamp 0000035A)
+     ("Source Package" R)
+     (Value 1M)
+     ("PCB Footprint" RES400))))
+  (component CON2
+   (place K1
+    (property 
+     (timestamp 00001061)
+     ("Source Package" CON2)
+     (Value Relay)
+     ("PCB Footprint" JUMPER2))))
+  (component 2N7000
+   (place Q1
+    (property 
+     (timestamp 000008D5)
+     ("Source Package" 2N7000)
+     (Value 2N7000)
+     ("PCB Footprint" "TO-92L"))))
+  (component CAP
+   (place C2
+    (property 
+     (timestamp 0000032D)
+     ("Source Package" CAP)
+     (Value 1u)
+     ("PCB Footprint" CAPCK05))))
+  (component POT
+   (place R3
+    (property 
+     (Implementation POT)
+     (SET 0.5)
+     (timestamp 000000C9)
+     ("Source Package" POT)
+     (Value 100K)
+     ("PCB Footprint" VRES10)
+     (PSpiceTemplate "X^@REFDES %1 %T %2 POT PARAMS: SET=@SET VALUE=@VALUE"))))
+  (component COIN_1
+   (place 1
+    (property 
+     (timestamp 0000002A)
+     ("Source Package" COIN_1)
+     (Value "COIN-SIZED PAD")
+     ("PCB Footprint" moneda))))
+  (component CON2_1
+   (place J1
+    (property 
+     (timestamp 00003E7D)
+     ("Source Package" CON2_1)
+     (Value CON2)
+     ("PCB Footprint" JUMPER2))))
+  (component 1N4148
+   (place D1
+    (property 
+     (Implementation D1N4148_1)
+     (timestamp 0000417B)
+     ("Source Package" 1N4148)
+     (COMPONENT 1N4148)
+     (Value D1N4148)
+     ("PCB Footprint" dax2do35)
+     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/"))))
+  (component LM317L/TO92_11
+   (place U3
+    (property 
+     (timestamp 00001048)
+     ("Source Package" LM317L/TO92_11)
+     (Value LM317L/TO92)
+     ("PCB Footprint" "TO-92L"))))
+  (component C
+   (place C1
+    (property 
+     (timestamp 00000867)
+     ("Source Package" C)
+     (Value 1u)
+     ("PCB Footprint" CAPCK05))))
+  (component 74HC02_19
+   (place U1
+    (property 
+     (timestamp 00000078)
+     ("Source Package" 74HC02_19)
+     (Value 74HC02)
+     ("PCB Footprint" SOIC14)))
+   (place U2
+    (property 
+     (timestamp 0000018A)
+     ("Source Package" 74HC02_19)
+     (Value 74HC02)
+     ("PCB Footprint" SOIC14)))))
+ (library
+  (image 74HC02_19
+   (property 
+    (sourcelib "C:\\USERS\\VLADC\\DESKTOP\\PROIECT TIE 2023 - ECHIPA 2 - 423C\\CIRCUIT (SCHEMATIC+PCB)\\HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.DSN"))
+   (pin 999 2
+    (property 
+     (pinname A_A)
+     (pintype 0)
+     (Name A)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N00229)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname B_A)
+     (pintype 0)
+     (Name B)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" GND_ARROW)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname Y_A)
+     (pintype 2)
+     (Name Y)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N00556)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname 12V)
+     (pintype 7)
+     (Name 12V)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" 12V)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname GND_ARROW)
+     (pintype 7)
+     (Name GND_ARROW)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND_ARROW)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname A_B)
+     (pintype 0)
+     (Name A)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" GND_ARROW)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname B_B)
+     (pintype 0)
+     (Name B)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" GND_ARROW)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname Y_B)
+     (pintype 2)
+     (Name Y)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Output)
+     (Order 2)
+     ("Is No Connect" True)))
+   (pin 999 8
+    (property 
+     (pinname A_C)
+     (pintype 0)
+     (Name A)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N00645)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname B_C)
+     (pintype 0)
+     (Name B)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N01573)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname Y_C)
+     (pintype 2)
+     (Name Y)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N08128)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname A_D)
+     (pintype 0)
+     (Name A)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N08128)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname B_D)
+     (pintype 0)
+     (Name B)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N00686)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname Y_D)
+     (pintype 2)
+     (Name Y)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N01573)
+     (Order 2)
+     ("Is No Connect" False))))
+  (image LM317L/TO92_11
+   (property 
+    (sourcelib "C:\\USERS\\VLADC\\DESKTOP\\PROIECT TIE 2023 - ECHIPA 2 - 423C\\CIRCUIT (SCHEMATIC+PCB)\\HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.DSN"))
+   (pin 999 3
+    (property 
+     (pinname VIN)
+     (pintype 0)
+     (Name VIN)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" 12V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname ADJ)
+     (pintype 4)
+     (Name ADJ)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N04201)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname VOUT)
+     (pintype 2)
+     (Name VOUT)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N02019)
+     (Order 2)
+     ("Is No Connect" False))))
+  (image R
+   (property 
+    (sourcelib D:\\ORCAD\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00225)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00229)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image POT
+   (property 
+    (sourcelib D:\\ORCAD\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\BREAKOUT.OLB)
+    (SET 0.5)
+    (PSpiceTemplate "X^@REFDES %1 %T %2 POT PARAMS: SET=@SET VALUE=@VALUE"))
+   (pin 999 3
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N02019)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_ARROW)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname t)
+     (pintype 4)
+     (Name t)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00236)
+     (Order 2)
+     ("Is No Connect" False))))
+  (image C
+   (property 
+    (sourcelib D:\\ORCAD\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N02019)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_ARROW)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image CAP
+   (property 
+    (sourcelib D:\\ORCAD\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00786)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_ARROW)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image COIN_1
+   (property 
+    (sourcelib "C:\\USERS\\VLADC\\DESKTOP\\PROIECT TIE-HUMAN INTERFACE CAPACITIVE SWITCH\\HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.DSN"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00225)
+     (Order 0)
+     ("Is No Connect" False))))
+  (image CON2_1
+   (property 
+    (sourcelib "C:\\USERS\\VLADC\\DESKTOP\\PROIECT TIE 2023 - ECHIPA 2 - 423C\\CIRCUIT (SCHEMATIC+PCB)\\HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.DSN"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 7)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" 12V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 7)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND_ARROW)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image 1N4148
+   (property 
+    (sourcelib D:\\ORCAD\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\EDIODE.OLB)
+    (COMPONENT 1N4148)
+    (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N02218)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" 12V)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image LED
+   (property 
+    (sourcelib D:\\ORCAD\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname ANODE)
+     (pintype 4)
+     (Name ANODE)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N024101)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname CATHODE)
+     (pintype 4)
+     (Name CATHODE)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N02218)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image 2N7000
+   (property 
+    (sourcelib D:\\ORCAD\\TOOLS\\CAPTURE\\LIBRARY\\TRANSISTOR.OLB))
+   (pin 999 3
+    (property 
+     (pinname DRAIN)
+     (pintype 4)
+     (Name DRAIN)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N02218)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname GATE)
+     (pintype 4)
+     (Name GATE)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01573)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname SOURCE)
+     (pintype 4)
+     (Name SOURCE)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_ARROW)
+     (Order 2)
+     ("Is No Connect" False))))
+  (image CON2
+   (property 
+    (sourcelib D:\\ORCAD\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" 12V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N02218)
+     (Order 1)
+     ("Is No Connect" False)))))
+ (network
+  (net 12V
+    (property 
+     (nettype S))
+   (pins
+     U1-14 U2-14 R6-1 U3-3 K1-1 J1-1 D1-2))
+  (net GND_ARROW
+    (property 
+     (nettype S))
+   (pins
+     U1-3 U1-7 R3-1 U2-7 C2-2 C1-2 R5-2 Q1-1 U1-5
+     U1-6 J1-2))
+  (net N00225
+   (pins
+     R1-1 1-1))
+  (net N00229
+   (pins
+     R1-2 R2-2 U1-2))
+  (net N00236
+   (pins
+     R2-1 R3-2))
+  (net N00556
+   (pins
+     U1-1 U2-5 U2-2))
+  (net N00573
+   (pins
+     U2-6 U2-11 U2-12 U2-10))
+  (net N00627
+   (pins
+     U2-13 U2-3))
+  (net N00645
+   (pins
+     U2-1 U1-8))
+  (net N00686
+   (pins
+     U2-4 U1-12))
+  (net N00786
+   (pins
+     U2-8 U2-9 C2-1 R7-1))
+  (net N01573
+   (pins
+     R7-2 Q1-2 U1-13 U1-9))
+  (net N02019
+   (pins
+     R3-3 R4-1 C1-1 U3-2))
+  (net N02218
+   (pins
+     Q1-3 D2-2 K1-2 D1-1))
+  (net N024101
+   (pins
+     R6-2 D2-1))
+  (net N04201
+   (pins
+     R4-2 R5-1 U3-1))
+  (net N08128
+   (pins
+     U1-11 U1-10)))
+)

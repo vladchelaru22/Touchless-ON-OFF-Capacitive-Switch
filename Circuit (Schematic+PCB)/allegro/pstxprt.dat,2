@@ -1,0 +1,232 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Sep-01-2023 at 17:24:55 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC';
+ POST_TIME='Jul 30 2017 03:29:02';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ 1 'COIN_1_MONEDA_COIN-SIZED PAD':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS36@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.COIN_1.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins36@\human_interface_capacitive_switch-schematic\.\coin_1.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins36@\human_interface_capacitive_switch-schematic\.\coin_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C1 'C_CAPCK05_1U':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS2141@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins2141@discrete.\c.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins2141@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP_CAPCK05_1U':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS803@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins803@discrete.\cap.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins803@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 '1N4148_DAX2DO35_D1N4148':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS16753@EDIODE.1N4148.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins16753@ediode.\1n4148.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins16753@ediode.\1n4148.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_1206RF_WV_12D_LED':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS2608@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins2608@discrete.\led.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins2608@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_1_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS15987@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.CON2_1.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins15987@\human_interface_capacitive_switch-schematic\.\con2_1.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins15987@\human_interface_capacitive_switch-schematic\.\con2_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ K1 'CON2_JUMPER2_RELAY':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS4183@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins4183@connector.\con2.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins4183@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 '2N7000_TO-92L_2N7000':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS2249@TRANSISTOR.2N7000.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins2249@transistor.\2n7000.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins2249@transistor.\2n7000.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES400_1M':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS57@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins57@discrete.\r.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins57@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES400_100M':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS73@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins73@discrete.\r.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins73@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'POT_VRES10_100K':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS187@BREAKOUT.POT.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins187@breakout.\pot.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins187@breakout.\pot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RES400_220':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS2085@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins2085@discrete.\r.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins2085@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_RES400_330':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS2191@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins2191@discrete.\r.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins2191@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS2400@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins2400@discrete.\r.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins2400@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_RES400_1M':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS848@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins848@discrete.\r.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins848@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 '74HC02_19_SOIC14_74HC02':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS104@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.74HC02_19.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins104@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins104@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS2911@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.74HC02_19.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins2911@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins2911@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS14583@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.74HC02_19.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins14583@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins14583@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS14525@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.74HC02_19.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins14525@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins14525@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U2 '74HC02_19_SOIC14_74HC02':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS14467@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.74HC02_19.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins14467@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins14467@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS378@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.74HC02_19.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins378@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins378@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS501@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.74HC02_19.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins501@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins501@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS460@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.74HC02_19.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins460@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins460@\human_interface_capacitive_switch-schematic\.\74hc02_19.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U3 'LM317L/TO92_6_TO-92L_LM317L/TO9':;
+
+SECTION_NUMBER 1
+ '@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.SCHEMATIC1(SCH_1):INS4156@HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.LM317L/TO92_6.NORMAL(CHIPS)':
+ C_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):ins4156@\human_interface_capacitive_switch-schematic\.\lm317l/to92_6.normal\(chips)',
+ P_PATH='@\human_interface_capacitive_switch-schematic\.schematic1(sch_1):page_ins4156@\human_interface_capacitive_switch-schematic\.\lm317l/to92_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

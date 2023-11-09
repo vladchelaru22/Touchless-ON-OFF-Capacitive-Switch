@@ -1,0 +1,27 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\human_interface_capacitive_switch-schematic_0.dbk"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (MPSSessionName "crist")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         ".\human_interface_capacitive_switch-schematic_0.dbk")
+      (Path "Design Resources"
+         ".\human_interface_capacitive_switch-schematic_0.dbk" "SCHEMATIC1")
+      (Select "Design Resources"
+         ".\human_interface_capacitive_switch-schematic_0.dbk"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 318"))
+      (Tab 0))))

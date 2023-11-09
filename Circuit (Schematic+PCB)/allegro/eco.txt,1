@@ -1,0 +1,108 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/Users/vladc/Desktop/HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.brd      |
+|                                                    Sat Sep 02 17:48:04 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins MOVED FROM this net (to net name listed on right)
+                                 U1.7            11050.0 9502.50
+                                                                      GND_ARROW
+                                 U2.7            10750.0 9047.50
+                                                                      GND_ARROW
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02019       pins MOVED FROM this net (to net name listed on right)
+                                 U3.1            11400.0 10250.0
+                                                                         N04201
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04201       pins MOVED FROM this net (to net name listed on right)
+                                 U3.2            11450.0 10300.0
+                                                                         N02019
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins MOVED FROM this net (to net name listed on right)
+                                 U1.14           10750.0 9697.50
+                                                                            12V
+                                 U2.14           11050.0 8852.50
+                                                                            12V
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC_ARROW    pins MOVED FROM this net (to net name listed on right)
+                                 C1.2            11350.0 9850.00
+                                                                      GND_ARROW
+                                 C2.2            11350.0 9200.00
+                                                                      GND_ARROW
+                                 J1.2            12750.0 9300.00
+                                                                      GND_ARROW
+                                 Q1.1            12150.0 9400.00
+                                                                      GND_ARROW
+                                 R3.1            11200.0 8500.00
+                                                                      GND_ARROW
+                                 R5.2            12350.0 9600.00
+                                                                      GND_ARROW
+                                 U1.3            10850.0 9502.50
+                                                                      GND_ARROW
+                                 U1.5            10950.0 9502.50
+                                                                      GND_ARROW
+                                 U1.6            11000.0 9502.50
+                                                                      GND_ARROW
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/Users/vladc/Desktop/HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.brd      |
+|                                                    Sat Sep 02 17:48:04 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 74HC02_19_SOIC14_74HC02
+ CON2_1_JUMPER2_CON2
+ LM317L/TO92_11_TO-92L_LM317L/TO
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/Users/vladc/Desktop/HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.brd      |
+|                                                    Sat Sep 02 17:48:04 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J1                  CON2_1_JUMPER2_CON2   12750.0 9200.00 CON2_JUMPER2_CON2
+ U1                  74HC02_19_SOIC14_74HC02 10900.0 9600.00 74HC02_SOIC14_74HC02
+ U2                  74HC02_19_SOIC14_74HC02 10900.0 8950.00 74HC02_SOIC14_74HC02
+ U3                  LM317L/TO92_11_TO-92L_LM317L/TO 11450.0 10250.0 LM317L/TO92_5_TO-92L_LM317L/TO9
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/Users/vladc/Desktop/HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.brd      |
+|                                                    Sat Sep 02 17:48:04 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J1.2           12750.0 9200.00 PRIM_FILE      .\pstchip.dat
+ U1.1           10900.0 9600.00 PRIM_FILE      .\pstchip.dat
+ U1.4           10900.0 9600.00 PRIM_FILE      .\pstchip.dat
+ U1.10          10900.0 9600.00 PRIM_FILE      .\pstchip.dat
+ U1.13          10900.0 9600.00 PRIM_FILE      .\pstchip.dat
+ U2.1           10900.0 8950.00 PRIM_FILE      .\pstchip.dat
+ U2.4           10900.0 8950.00 PRIM_FILE      .\pstchip.dat
+ U2.10          10900.0 8950.00 PRIM_FILE      .\pstchip.dat
+ U2.13          10900.0 8950.00 PRIM_FILE      .\pstchip.dat
+ U3.2           11450.0 10250.0 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      15                                        |
+|       Comp definitions added:       3                                        |
+|       Components changed    :       4                                        |
+|       Slot property added   :      10                                        |
+|                                                                              |
+|   Total ECO changes reported:      32                                        |
+|------------------------------------------------------------------------------|

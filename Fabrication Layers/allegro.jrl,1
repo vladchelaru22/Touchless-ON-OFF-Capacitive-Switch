@@ -1,0 +1,151 @@
+\t (00:01:17) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:01:17)     Journal start - Wed Sep 06 08:57:17 2023
+\t (00:01:17)         Host=KELLYY User=vladc Pid=2912 CPUs=8
+\t (00:01:17) CmdLine= D:\OrCAD\tools\bin\allegro.exe
+\t (00:01:17) 
+\d (00:01:17) Design opened: C:/Users/vladc/Desktop/PROIECT TIE 2023 - Echipa 2 - 423C/Fisiere de fabricatie/FABRICATION.brd
+\i (00:01:17) etchedit 
+\i (00:01:18) zoom out 1 
+\i (00:01:18) setwindow pcb
+\i (00:01:18) zoom out 11678.83 9458.69
+\i (00:01:18) trapsize 10119
+\i (00:01:18) zoom out 1 
+\i (00:01:18) setwindow pcb
+\i (00:01:18) zoom out 13539.28 4755.95
+\i (00:01:18) trapsize 10119
+\i (00:01:18) zoom out 1 
+\i (00:01:18) setwindow pcb
+\i (00:01:18) zoom out 13539.28 4755.95
+\i (00:01:18) trapsize 10119
+\i (00:01:19) zoom out 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom out 13539.28 4755.95
+\i (00:01:19) trapsize 10119
+\i (00:01:19) zoom in 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom in 13539.28 4755.95
+\i (00:01:19) trapsize 5060
+\i (00:01:19) zoom in 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom in 11741.07 4755.96
+\i (00:01:19) trapsize 2530
+\i (00:01:19) zoom in 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom in 11741.07 4755.96
+\i (00:01:19) trapsize 1265
+\i (00:01:19) zoom out 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom out 11741.07 4755.96
+\i (00:01:19) trapsize 2530
+\i (00:01:19) zoom out 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom out 11741.07 4755.97
+\i (00:01:19) trapsize 5060
+\i (00:01:19) zoom out 1 
+\i (00:01:20) setwindow pcb
+\i (00:01:20) zoom out 11741.07 4755.97
+\i (00:01:20) trapsize 10119
+\i (00:01:20) zoom in 1 
+\i (00:01:20) setwindow pcb
+\i (00:01:20) zoom in 13539.28 4755.95
+\i (00:01:20) trapsize 5060
+\i (00:01:52) zoom in 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom in 14473.21 5788.10
+\i (00:01:52) trapsize 2530
+\i (00:01:52) zoom in 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom in 14473.22 5788.10
+\i (00:01:52) trapsize 1265
+\i (00:01:52) zoom in 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom in 14473.21 5788.10
+\i (00:01:52) trapsize 632
+\i (00:01:52) zoom in 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom in 14473.21 5788.10
+\i (00:01:52) trapsize 316
+\i (00:01:52) zoom in 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom in 14473.21 5788.10
+\i (00:01:52) trapsize 158
+\i (00:01:53) zoom out 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom out 14473.21 5788.11
+\i (00:01:53) trapsize 316
+\i (00:01:53) zoom out 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom out 14473.20 5788.10
+\i (00:01:53) trapsize 632
+\i (00:01:53) zoom out 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom out 14473.21 5788.11
+\i (00:01:53) trapsize 1265
+\i (00:01:53) zoom out 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom out 14473.21 5788.10
+\i (00:01:53) trapsize 2530
+\i (00:01:54) zoom out 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom out 13349.98 6825.31
+\i (00:01:54) trapsize 5060
+\i (00:01:54) zoom out 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom out 12226.74 6825.32
+\i (00:01:54) trapsize 10119
+\i (00:01:54) zoom out 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom out 14510.71 10969.05
+\i (00:01:54) trapsize 10119
+\i (00:01:54) zoom in 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom in 10463.09 9613.09
+\i (00:01:54) trapsize 5060
+\i (00:02:01) open 
+\i (00:02:05) fillin "NC_DRILL.brd"
+\t (00:02:05) Opening existing design...
+\i (00:02:05) trapsize 10119
+\d (00:02:06) Design opened: C:/Users/vladc/Desktop/PROIECT TIE 2023 - Echipa 2 - 423C/Fisiere de fabricatie/NC_DRILL.brd
+\i (00:02:06) etchedit 
+\i (00:02:07) zoom out 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom out 13215.48 8135.71
+\i (00:02:07) trapsize 10119
+\i (00:02:07) zoom out 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom out 13215.48 8135.71
+\i (00:02:07) trapsize 10119
+\i (00:02:07) zoom out 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom out 13215.48 8135.71
+\i (00:02:07) trapsize 10119
+\i (00:02:08) zoom out 1 
+\i (00:02:08) setwindow pcb
+\i (00:02:08) zoom out 13215.48 8135.71
+\i (00:02:08) trapsize 10119
+\i (00:02:08) zoom out 1 
+\i (00:02:08) setwindow pcb
+\i (00:02:08) zoom out 13215.48 8135.71
+\i (00:02:08) trapsize 10119
+\i (00:02:08) zoom in 1 
+\i (00:02:08) setwindow pcb
+\i (00:02:08) zoom in 13215.48 8135.71
+\i (00:02:08) trapsize 5060
+\i (00:02:08) zoom in 1 
+\i (00:02:08) setwindow pcb
+\i (00:02:08) zoom in 11579.17 8135.72
+\i (00:02:08) trapsize 2530
+\i (00:02:09) zoom out 1 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) zoom out 11579.17 8135.72
+\i (00:02:09) trapsize 5060
+\i (00:02:09) zoom out 1 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) zoom out 11579.16 8135.72
+\i (00:02:09) trapsize 10119
+\i (00:02:09) zoom out 1 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) zoom out 13215.48 8135.71
+\i (00:02:09) trapsize 10119
+\i (00:02:17) exit 
+\t (00:02:18)     Journal end - Wed Sep 06 08:58:17 2023

@@ -1,0 +1,90 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : PCB_HUMAN_INTERFACE_FINAL.brd                 )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Sat Sep 02 17:55:52 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\USERS\VLADC\DESKTOP\PROIECT TIE 2023 - ECHIPA 2 - 423C\CIRCUIT (SCHEMATIC+PCB)\allegro'
+Design Directory:            'C:/Users/vladc/Desktop/PROIECT TIE 2023 - Echipa 2 - 423C/Circuit (Schematic+PCB)/allegro'
+Old design name:             'C:/Users/vladc/Desktop/PCB_HUMAN_INTERFACE_FINAL.brd'
+New design name:             'C:/Users/vladc/Desktop/PROIECT TIE 2023 - Echipa 2 - 423C/Circuit (Schematic+PCB)/allegro/HUMAN_INTERFACE_FINAL.brd'
+
+CmdLine: netrev.exe -y 1 -i C:\USERS\VLADC\DESKTOP\PROIECT TIE 2023 - ECHIPA 2 - 423C\CIRCUIT (SCHEMATIC+PCB)\allegro C:\Users\vladc\Desktop\PCB_HUMAN_INTERFACE_FINAL.brd C:\Users\vladc\Desktop\PROIECT TIE 2023 - Echipa 2 - 423C\Circuit (Schematic+PCB)\allegro\HUMAN_INTERFACE_FINAL.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/USERS/VLADC/DESKTOP/PROIECT TIE 2023 - ECHIPA 2 - 423C/CIRCUIT (SCHEMATIC+PCB)/allegro/pstchip.dat 
+   Finished reading C:/USERS/VLADC/DESKTOP/PROIECT TIE 2023 - ECHIPA 2 - 423C/CIRCUIT (SCHEMATIC+PCB)/allegro/pstchip.dat (00:00:00.03)
+Starting to read C:/USERS/VLADC/DESKTOP/PROIECT TIE 2023 - ECHIPA 2 - 423C/CIRCUIT (SCHEMATIC+PCB)/allegro/pstxprt.dat 
+   Finished reading C:/USERS/VLADC/DESKTOP/PROIECT TIE 2023 - ECHIPA 2 - 423C/CIRCUIT (SCHEMATIC+PCB)/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/VLADC/DESKTOP/PROIECT TIE 2023 - ECHIPA 2 - 423C/CIRCUIT (SCHEMATIC+PCB)/allegro/pstxnet.dat 
+   Finished reading C:/USERS/VLADC/DESKTOP/PROIECT TIE 2023 - ECHIPA 2 - 423C/CIRCUIT (SCHEMATIC+PCB)/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/OrCAD/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/OrCAD/share/local/pcb/symbols 
+           D:/OrCAD/share/pcb/pcb_lib/symbols 
+           D:/OrCAD/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/OrCAD/share/local/pcb/padstacks 
+           D:/OrCAD/share/pcb/pcb_lib/symbols 
+           D:/OrCAD/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Sep 2 17:55:52 2023
+   DESIGN NAME : 'HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC'
+   PACKAGING ON Jul 30 2017 03:29:02
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:25
+elapsed time  0:00:00
+

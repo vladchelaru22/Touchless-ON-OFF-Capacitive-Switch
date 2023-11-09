@@ -1,0 +1,15 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : HUMAN_INTERFACE_CAPACITIVE_SWITCH-SCHEMATIC.brd )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Mon Jun 05 21:51:27 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING Deleted redundant via at (12100.00 9350.00) on net N01573.
+WARNING Deleted redundant via at (11350.00 9850.00) on net VCC_ARROW.
+
+2 warnings, 0 errors detected, 0 errors could be fixed.

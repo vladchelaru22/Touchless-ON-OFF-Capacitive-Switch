@@ -1,0 +1,25 @@
+\t (00:00:03) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Wed Sep 06 13:44:47 2023
+\t (00:00:03)         Host=KELLYY User=vladc Pid=10528 CPUs=8
+\t (00:00:03) CmdLine= D:\OrCAD\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\d (00:00:06) Design opened: C:/Users/vladc/Desktop/PROIECT TIE 2023 - Echipa 2 - 423C/Circuit (Schematic+PCB)/allegro/HUMAN_INTERFACE_FINAL.brd
+\i (00:00:06) trapsize 1757
+\i (00:00:06) trapsize 1799
+\i (00:00:06) trapsize 1833
+\i (00:00:06) trapsize 1521
+\i (00:00:06) trapsize 1621
+\i (00:00:06) trapsize 27632
+\i (00:00:06) trapsize 1917
+\i (00:00:06) trapsize 1963
+\i (00:00:06) trapsize 2012
+\i (00:00:06) trapsize 1688
+\i (00:00:06) etchedit 
+\i (00:00:09) open 
+\i (00:00:29) fillin "E:\PROIECT TIE 2023 - Echipa 2 - 423C\Circuit (Schematic+PCB)\allegro\HUMAN_INTERFACE_FINAL.brd"
+\i (00:00:29) cd "E:\PROIECT TIE 2023 - Echipa 2 - 423C\Circuit (Schematic+PCB)\allegro"
+\t (00:00:29) Opening existing design...
+\i (00:00:30) trapsize 1657
+\t (00:00:30)     Journal end - Wed Sep 06 13:45:14 2023
